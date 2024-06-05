@@ -28,5 +28,6 @@ class Pirate:
     def defend(self, damage):
         damage -= self.speed
         self.health -= damage
+        print(f"{self.name}: Ouch!")
         print(f"{self.name} takes {damage} damage, they now have {self.health} health.\n")
         return self

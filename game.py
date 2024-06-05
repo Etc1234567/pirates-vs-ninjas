@@ -134,7 +134,7 @@ if multiplayer == False:
 
     while character.health > 0 and opponent.health > 0:
         choice= ""
-        print(f"What will you do?: \n")
+        print(f"What will you do?:")
         
         while choice == "":
             choice = input("1) Attack \t 2) Heal: \n")
